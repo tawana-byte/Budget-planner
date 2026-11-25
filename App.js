@@ -3,8 +3,8 @@ import { View, Text, TextInput, ScrollView, Pressable, Alert, StyleSheet, useCol
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
-const CATS = [["Rent","🏠",30],["Electricity","💡",5],["Water","💧",3],["Repairs","🔧",4],["Miscellaneous","🧾",5],["Dry groceries","🛒",10],["Meat","🥩",7],["Vegetables","🥬",5],["Savings","🐷",15],["Subscriptions","📺",3],["Black tax","🤝",13]];
-const CURS = ["R","₦","GH₵","KSh","$","£","€"];
+const CATS = [["Rent","🏠",28],["Electricity","💡",4],["Water","💧",2],["Repairs","🔧",3],["Miscellaneous","🧾",4],["Dry groceries","🛒",9],["Meat","🥩",6],["Vegetables","🥬",4],["Savings","🐷",12],["Subscriptions","📺",2],["Black tax","🤝",10],["Fuel","⛽",5],["Personal care / Grooming","💇",3],["Entertainment","🎬",4],["Travel and gifts","🎁",4]];
+const CURS = ["$"];
 const KEY = "budget-v1";
 const LIGHT = { bg:"#eef1f4", card:"#fff", text:"#14202b", mute:"#60707e", line:"#d9e0e6", accent:"#0f6b6b", accentT:"#dcf0ee", warn:"#9a6700", warnT:"#fff1cc", bad:"#c62828", badT:"#fde3e1", track:"#e4e9ee", onAccent:"#fff" };
 const DARK = { bg:"#0e151b", card:"#17212a", text:"#e9eef2", mute:"#8fa1af", line:"#26333e", accent:"#4fd1c5", accentT:"#12332f", warn:"#f0c15a", warnT:"#3b2f10", bad:"#ff8a80", badT:"#431d1b", track:"#243039", onAccent:"#06201d" };
