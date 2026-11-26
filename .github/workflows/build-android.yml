@@ -31,7 +31,7 @@ jobs:
         working-directory: build
         run: |
           npm install
-          npx expo install @react-native-async-storage/async-storage react-native-safe-area-context
+          npx expo install @react-native-async-storage/async-storage react-native-safe-area-context react-native-svg
 
       - name: Add the budget app code
         run: cp App.js build/App.js
